@@ -1,5 +1,9 @@
 # User Data Migration
 
+## DEPRECATED PROJECT
+### Limitations with the data processing capabilities of BASH scripting led to this project being rewritten in Python and Perl. To view that project go to:
+### https://github.com/vancouvercommunitynetwork/pyMigrate
+# 
 ## Usage:
 ### Usage: ./migrate.sh [DESTINATION] [USER LIST FILE]
 ### Migrate users from this machine to a remote machine. The user list must be a text file containing a newline-separated list of usernames. The network destination needs to be pre-authorized for ssh access which can be done with ssh-keygen.
